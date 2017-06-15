@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GeneralDownloader"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="170.79" Width="452.835">
     <Grid>
-        
+        <Label x:Name="MessageLabel" Content="コンテンツをダウンロードしています" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ProgressBar HorizontalAlignment="Center" Height="22.027" Margin="0,40,0,0" VerticalAlignment="Top" Width="400"/>
+        <Button Content="中止" Margin="0,100,0,5" VerticalAlignment="Top" Width="102.663" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
     </Grid>
 </Window>
